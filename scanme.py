@@ -12,7 +12,7 @@ print("_"*70)
 print("BLACK GEMINI port scanner")
 print("_"*70)
 
-start_time+ time.time()
+start_time = time.time()
 if(len(sys.argv) != 4):
 	print(usage)
 	sys.exit()
